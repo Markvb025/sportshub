@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <title>Hockey - SportsHub</title>
+</head>
+
+<body class="bg-secondary-subtle">
+    <!-- Nav bar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark px-3 py-2">
+        <div class="container-fluid">
+            <!-- Logo -->
+            <a class="navbar-brand d-flex align-items-center" href="index.html">
+                <img src="https://scontent.fmnl16-1.fna.fbcdn.net/v/t1.15752-9/494826414_1051594533696525_2008064130420257807_n.png?_nc_cat=106&ccb=1-7&_nc_sid=9f807c&_nc_ohc=sq_mrfpDstwQ7kNvwEZWPgI&_nc_oc=AdlN_BWbJrXWPPKbAUKsgDbWjs8qUYkJE0grEiXjal2Dnbb0XQuS5VNqlm_x2ryck5k&_nc_zt=23&_nc_ht=scontent.fmnl16-1.fna&oh=03_Q7cD2QFiat-h_z1dcmqObgyNICwdRbaqhxnidK_dAg0CaYwHGw&oe=683FA76E"
+                    class="img-fluid" style="max-height: 40px;" alt="SportsHub">
+            </a>
+
+            <!-- Toggler -->
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <!-- Navbar Content -->
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <!-- Nav Links -->
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item pe-2">
+                        <a class="nav-link text-white" href="home.html">Home</a>
+                    </li>
+                    <li class="nav-item pe-2">
+                        <a class="nav-link text-white active" href="basketball.html">Basketball</a>
+                    </li>
+                    <li class="nav-item pe-2">
+                        <a class="nav-link text-white" href="volleyball.html">Volleyball</a>
+                    </li>
+                    <li class="nav-item pe-2">
+                        <a class="nav-link text-white" href="football.html">Football</a>
+                    </li>
+                    <!-- Dropdown -->
+                    <li class="nav-item dropdown pe-2">
+                        <a class="nav-link dropdown-toggle text-white" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Others
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="badminton.html">Badminton</a></li>
+                            <li><a class="dropdown-item" href="baseball.html">Baseball</a></li>
+                            <li><a class="dropdown-item" href="boxing.html">Boxing</a></li>
+                            <li><a class="dropdown-item" href="esports.html">E-Sports</a></li>
+                            <li><a class="dropdown-item" href="f1.html">F1</a></li>
+                            <li><a class="dropdown-item" href="golf.html">Golf</a></li>
+                            <li><a class="dropdown-item" href="gymnastics.html">Gymnastics</a></li>
+                            <li><a class="dropdown-item" href="hockey.html">Hockey</a></li>
+                            <li><a class="dropdown-item" href="mma.html">MMA</a></li>
+                            <li><a class="dropdown-item" href="swimming.html">Swimming</a></li>
+                            <li><a class="dropdown-item" href="soccer.html">Soccer</a></li>
+                            <li><a class="dropdown-item" href="tennis.html">Tennis</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item pe-2">
+                        <a class="nav-link text-white" href="about.html">About</a>
+                    </li>
+                    <li class="nav-item pe-2">
+                        <a class="nav-link text-white" href="contact.html">Contact</a>
+                    </li>
+                </ul>
+
+                <!-- Search: Always responsive -->
+                <div class="ms-auto d-flex justify-content-center align-items-center w-100 w-lg-auto mt-3 mt-lg-0">
+                    <form class="d-flex" role="search">
+                        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search" style="max-width: 200px;">
+                        <button class="btn btn-success text-white" type="submit">Search</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <div class="d-flex align-items-center justify-content-center w-100 p-2 mt-1 bg-light shadow">
+        <i class="fa-solid fa-hockey-puck fs-3"></i>
+        <h4 class="fw-bold my-auto px-3">Hockey</h4>
+        <i class="fa-solid fa-hockey-puck fs-3"></i>
+    </div>
+    <main class="main-container d-flex w-75 m-auto my-2">
+        <article class="main-article">
+            <div>
+                <div class="card shadow p-2 bg-light-subtle">
+                    <img src="https://loodibee.com/wp-content/uploads/NHL-league-logo.png" class="img-fluid nhl-logo"
+                        alt="nhl logo">
+                    <div class="card overflow-hidden shadow-sm">
+                        <img src="https://dims.apnews.com/dims4/default/01ecfbe/2147483647/strip/false/crop/3673x2449+0+0/resize/1486x991!/quality/90/?url=https%3A%2F%2Fassets.apnews.com%2Fce%2Fd7%2Fd182c7efe2e3dd60dd5312698b5d%2F7382ce87a55a422a881bc70e489484f4"
+                            class="img-fluid w-100 object-fit-cover" alt="post-img">
+                        <div class="card-footer w-100 p-4">
+                            <h5 class="fw-semibold">Ekblad suspended 2 games for Panthers
+                            </h5>
+                            <p class="m-auto fw-semibold opacity-50">· 8h ago</p>
+                        </div>
+                    </div>
+                </div>
+                <hr>
+                <div class="card shadow p-2 bg-light-subtle">
+                    <img src="https://loodibee.com/wp-content/uploads/NHL-league-logo.png" class="img-fluid nhl-logo"
+                        alt="nhl logo">
+                    <div class="card overflow-hidden shadow-sm">
+                        <img src="https://sportshub.cbsistatic.com/i/r/2025/04/17/9a0daf8d-65fe-417a-a235-639b0e78b048/thumbnail/770x433/5073b9912c1f1dfd390dcd4f2868bb07/gettyimages-2209748026-1-1.jpg"
+                            class="img-fluid w-100" alt="post-img">
+                        <div class="card-body w-100 p-4">
+                            <h5 class="fw-semibold">2025 NHL playoff picture: Standings, schedule, bracket, seedings as
+                                Stanley Cup Playoff field is set</h5>
+                            <p class="m-auto fw-semibold opacity-50">· 8h ago</p>
+                        </div>
+                    </div>
+                </div>
+                <hr>
+                <div class="card shadow p-2 bg-light-subtle">
+                    <img src="https://loodibee.com/wp-content/uploads/NHL-league-logo.png" class="img-fluid nhl-logo"
+                        alt="nhl logo">
+                    <div class="card overflow-hidden shadow-sm">
+                        <img src="https://i.cbc.ca/1.7524565.1746148716!/cpImage/httpImage/image.jpg_gen/derivatives/16x9_1180/hkn-maple-leafs-senators-20250501.jpg?im=Resize%3D780"
+                            class="img-fluid w-100" alt="post-img">
+                        <div class="card-body w-100 p-4">
+                            <h5 class="fw-semibold">Maple Leafs beat Senators in Game 6 to take Battle of Ontario 4-2</h5>
+                            <p class="m-auto fw-semibold opacity-50">· 8h ago</p>
+                        </div>
+                    </div>
+                </div>
+                <hr>
+                <div class="card shadow p-2 bg-light-subtle">
+                    <img src="https://loodibee.com/wp-content/uploads/NHL-league-logo.png" class="img-fluid nhl-logo"
+                        alt="nhl logo">
+                    <div class="card overflow-hidden shadow-sm">
+                        <img src="https://media.d3.nhle.com/image/private/t_ratio16_9-size40/f_png/v1745957519/prd/c14svvogzs0uddq88ntd.png"
+                            class="img-fluid w-100" alt="post-img">
+                        <div class="card-body w-100 p-4">
+                            <h5 class="fw-semibold">Tocchet won't return as Canucks coach</h5>
+                            <p class="m-auto fw-semibold opacity-50">· 8h ago</p>
+                        </div>
+                    </div>
+                </div>
+                <hr>
+                <div class="card shadow p-2 bg-light-subtle">
+                    <img src="https://loodibee.com/wp-content/uploads/NHL-league-logo.png" class="img-fluid nhl-logo"
+                        alt="nhl logo">
+                    <div class="card overflow-hidden shadow-sm">
+                        <img src="https://media.d3.nhle.com/image/private/t_ratio16_9-size40/f_auto/v1746149534/prd/bccg7nxwlg0otjwqtnuj.jpg"
+                            class="img-fluid w-100" alt="post-img">
+                        <div class="card-body w-100 p-4">
+                            <h5 class="fw-semibold">Panthers to play Maple Leafs in 2nd round of Stanley Cup Playoffs</h5>
+                            <p class="m-auto fw-semibold opacity-50">· 8h ago</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </article>
+        <aside class="sidebar">
+            <div>
+                <p class="fs-5 fw-semibold m-auto">Trendings</p>
+                <div class="card d-flex flex-row w-100 p-1 my-2 overflow-hidden shadow">
+                    <div class="w-25 m-auto">
+                        <img src="https://media.d3.nhle.com/image/private/t_ratio16_9-size40/f_png/prd/xllas7wmjv7idb9vsz8h.png"
+                            class="img-fluid rounded object-fit-cover" alt="">
+                    </div>
+                    <div class="w-75 px-2 m-auto text-center">
+                        <p class="m-auto">Penguins and Head Coach Mike Sullivan Agree to Part Ways</p>
+                    </div>
+                </div>
+                <div class="card d-flex flex-row w-100 p-1 my-2 overflow-hidden shadow">
+                    <div class="w-25 m-auto">
+                        <img src="https://media.d3.nhle.com/image/private/t_ratio16_9-size40/f_auto/prd/gxkugext1ks8tvdhyefn.jpg"
+                            class="img-fluid rounded object-fit-cover" alt="">
+                    </div>
+                    <div class="w-75 px-2 m-auto text-center">
+                        <p class="m-auto">Canes Sign Taylor Hall To Three-Year Extension</p>
+                    </div>
+                </div>
+                <div class="card d-flex flex-row w-100 p-1 my-2 overflow-hidden shadow">
+                    <div class="w-25 m-auto">
+                        <img src="https://media.d3.nhle.com/image/private/t_ratio16_9-size40/f_png/v1746110547/prd/lxu6odlpiqtgc9vu8onl.png"
+                            class="img-fluid rounded object-fit-cover" alt="">
+                    </div>
+                    <div class="w-75 px-2 m-auto text-center">
+                        <p class="m-auto">Draisaitl, Hellebuyck, Kucherov named Hart Trophy finalists</p>
+                    </div>
+                </div>
+                <div class="card d-flex flex-row w-100 p-1 my-2 overflow-hidden shadow">
+                    <div class="w-25 m-auto">
+                        <img src="https://media.d3.nhle.com/image/private/t_ratio16_9-size50/v1746064624/prd/hddewtx1hxmqmcatvxbh.jpg"
+                            class="img-fluid rounded object-fit-cover" alt="">
+                    </div>
+                    <div class="w-75 px-2 m-auto text-center">
+                        <p class="m-auto">Capitals defeat Canadiens in Game 5, win Eastern 1st Round series</p>
+                    </div>
+                </div>
+                <div class="card d-flex flex-row w-100 p-1 my-2 overflow-hidden shadow">
+                    <div class="w-25 m-auto">
+                        <img src="https://i.cbc.ca/1.7516171.1745412243!/fileImage/httpImage/image.jpg_gen/derivatives/16x9_1180/hockey-canada-trial-london-players.jpg?im=Resize%3D780"
+                            class="img-fluid rounded object-fit-cover" alt="">
+                    </div>
+                    <div class="w-75 px-2 m-auto text-center">
+                        <p class="m-auto">Mistrial declared in sex assault case against 5 ex-world junior hockey players in London, Ont.</p>
+                    </div>
+                </div>
+            </div>
+        </aside>
+    </main>
+
+    <footer class="site-footer bg-dark text-center py-4 border-top">
+        <div class="container">
+          <!-- Logo / Title -->
+          <h5 class="fw-bold text-uppercase text-light mb-3" style="font-family: 'Oswald', sans-serif;">SportsHub</h5>
+      
+          <!-- Social Media Icons -->
+          <div class="mb-3">
+            <a href="https://www.facebook.com/" class="btn btn-outline-secondary btn-sm rounded-circle mx-1"><i class="fab fa-facebook-f"></i></a>
+            <a href="https://x.com/" class="btn btn-outline-secondary btn-sm rounded-circle mx-1"><i class="fab fa-x-twitter"></i></a>
+            <a href="https://www.instagram.com/" class="btn btn-outline-secondary btn-sm rounded-circle mx-1"><i class="fab fa-instagram"></i></a>
+            <a href="https://www.tiktok.com/en/" class="btn btn-outline-secondary btn-sm rounded-circle mx-1"><i class="fab fa-tiktok"></i></a>
+            <a href="https://www.youtube.com/" class="btn btn-outline-secondary btn-sm rounded-circle mx-1"><i class="fab fa-youtube"></i></a>
+          </div>
+      
+        <!-- Navigation Links -->
+        <ul class="list-inline small mb-2">
+            <li class="list-inline-item"><a href="home.html" class="text-light text-decoration-none">Home</a></li>
+            <li class="list-inline-item"><a href="basketball.html" class="text-light text-decoration-none">Basketball</a></li>
+            <li class="list-inline-item"><a href="volleyball.html" class="text-light text-decoration-none">Volleyball</a></li>
+            <li class="list-inline-item"><a href="football.html" class="text-light text-decoration-none">Football</a></li>
+        
+            <!-- Dropdown for Others -->
+            <li class="list-inline-item dropdown">
+            <a class="text-light text-decoration-none dropdown-toggle" href="#" id="othersDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Others
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="othersDropdown">
+                <li><a class="dropdown-item" href="badminton.html">Badminton</a></li>
+                <li><a class="dropdown-item" href="baseball.html">Baseball</a></li>
+                <li><a class="dropdown-item" href="boxing.html">Boxing</a></li>
+                <li><a class="dropdown-item" href="esports.html">E-Sports</a></li>
+                <li><a class="dropdown-item" href="f1.html">F1</a></li>
+                <li><a class="dropdown-item" href="golf.html">Golf</a></li>
+                <li><a class="dropdown-item" href="gymnastics.html">Gymnastics</a></li>
+                <li><a class="dropdown-item" href="hockey.html">Hockey</a></li>
+                <li><a class="dropdown-item" href="mma.html">MMA</a></li>
+                <li><a class="dropdown-item" href="swimming.html">Swimming</a></li>
+                <li><a class="dropdown-item" href="soccer.html">Soccer</a></li>
+                <li><a class="dropdown-item" href="tennis.html">Tennis</a></li>
+            </ul>
+            </li>
+        
+            <li class="list-inline-item"><a href="about.html" class="text-light text-decoration-none">About</a></li>
+            <li class="list-inline-item"><a href="contact.html" class="text-light text-decoration-none">Contact</a></li>
+        </ul>  
+          <!-- Copyright -->
+          <p class="text-light small mb-0">
+            Copyright © 2025 SportsHub. Bringing hot sports news to the community, created by Triad.
+          </p>
+        </div>
+      </footer>
+
+      <!-- Back to Top Button -->
+    <a href="#" id="backToTopBtn" class="btn btn-dark rounded" 
+        style="position: fixed; bottom: 20px; right: 20px; display: none; z-index: 999;">
+        <i class="fas fa-chevron-up text-white"></i>
+    </a>
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+        integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.min.js"
+        integrity="sha384-VQqxDN0EQCkWoxt/0vsQvZswzTHUVOImccYmSyhJTp7kGtPed0Qcx8rK9h9YEgx+"
+        crossorigin="anonymous"></script>
+    <script>
+        const backToTopBtn = document.getElementById('backToTopBtn');
+          
+        // Show button when user scrolls down 100px
+        window.addEventListener('scroll', () => {
+            if (window.scrollY > 100) {
+            backToTopBtn.style.display = 'block';
+            } else {
+            backToTopBtn.style.display = 'none';
+            }
+        });
+          
+        // Smooth scroll to top on click
+        backToTopBtn.addEventListener('click', (e) => {
+            e.preventDefault();
+            window.scrollTo({ top: 0, behavior: 'smooth' });
+        });
+    </script>
+</body>
+
+</html>

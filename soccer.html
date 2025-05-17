@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <title>Soccer - SportsHub</title>
+</head>
+
+<body class="bg-secondary-subtle">
+    <!-- Nav bar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark px-3 py-2">
+        <div class="container-fluid">
+            <!-- Logo -->
+            <a class="navbar-brand d-flex align-items-center" href="index.html">
+                <img src="https://scontent.fmnl16-1.fna.fbcdn.net/v/t1.15752-9/494826414_1051594533696525_2008064130420257807_n.png?_nc_cat=106&ccb=1-7&_nc_sid=9f807c&_nc_ohc=sq_mrfpDstwQ7kNvwEZWPgI&_nc_oc=AdlN_BWbJrXWPPKbAUKsgDbWjs8qUYkJE0grEiXjal2Dnbb0XQuS5VNqlm_x2ryck5k&_nc_zt=23&_nc_ht=scontent.fmnl16-1.fna&oh=03_Q7cD2QFiat-h_z1dcmqObgyNICwdRbaqhxnidK_dAg0CaYwHGw&oe=683FA76E"
+                    class="img-fluid" style="max-height: 40px;" alt="SportsHub">
+            </a>
+
+            <!-- Toggler -->
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <!-- Navbar Content -->
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <!-- Nav Links -->
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item pe-2">
+                        <a class="nav-link text-white" href="home.html">Home</a>
+                    </li>
+                    <li class="nav-item pe-2">
+                        <a class="nav-link text-white active" href="basketball.html">Basketball</a>
+                    </li>
+                    <li class="nav-item pe-2">
+                        <a class="nav-link text-white" href="volleyball.html">Volleyball</a>
+                    </li>
+                    <li class="nav-item pe-2">
+                        <a class="nav-link text-white" href="football.html">Football</a>
+                    </li>
+                    <!-- Dropdown -->
+                    <li class="nav-item dropdown pe-2">
+                        <a class="nav-link dropdown-toggle text-white" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Others
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="badminton.html">Badminton</a></li>
+                            <li><a class="dropdown-item" href="baseball.html">Baseball</a></li>
+                            <li><a class="dropdown-item" href="boxing.html">Boxing</a></li>
+                            <li><a class="dropdown-item" href="esports.html">E-Sports</a></li>
+                            <li><a class="dropdown-item" href="f1.html">F1</a></li>
+                            <li><a class="dropdown-item" href="golf.html">Golf</a></li>
+                            <li><a class="dropdown-item" href="gymnastics.html">Gymnastics</a></li>
+                            <li><a class="dropdown-item" href="hockey.html">Hockey</a></li>
+                            <li><a class="dropdown-item" href="mma.html">MMA</a></li>
+                            <li><a class="dropdown-item" href="swimming.html">Swimming</a></li>
+                            <li><a class="dropdown-item" href="soccer.html">Soccer</a></li>
+                            <li><a class="dropdown-item" href="tennis.html">Tennis</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item pe-2">
+                        <a class="nav-link text-white" href="about.html">About</a>
+                    </li>
+                    <li class="nav-item pe-2">
+                        <a class="nav-link text-white" href="contact.html">Contact</a>
+                    </li>
+                </ul>
+
+                <!-- Search: Always responsive -->
+                <div class="ms-auto d-flex justify-content-center align-items-center w-100 w-lg-auto mt-3 mt-lg-0">
+                    <form class="d-flex" role="search">
+                        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search" style="max-width: 200px;">
+                        <button class="btn btn-success text-white" type="submit">Search</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <div class="d-flex align-items-center justify-content-center w-100 p-2 mt-1 bg-light shadow">
+        <i class="fa-solid fa-futbol fs-3"></i>
+        <h4 class="fw-bold my-auto px-3">Soccer</h4>
+        <i class="fa-solid fa-futbol fs-3"></i>
+    </div>
+    <main class="main-container d-flex w-75 m-auto my-2">
+        <article class="main-article">
+            <div>
+                <div class="card shadow p-2 bg-light-subtle">
+                    <img src="https://1000logos.net/wp-content/uploads/2019/01/Spanish-La-Liga-Logo.jpg" class="img-fluid laliga-logo" alt="laliga logo">
+                    <div class="card overflow-hidden shadow-sm">
+                        <img src="https://media.cnn.com/api/v1/images/stellar/prod/gettyimages-2212791115-20250501112106256.jpg?c=16x9&q=h_833,w_1480,c_fill"
+                            class="img-fluid w-100 object-fit-cover" alt="post-img">
+                        <div class="card-footer w-100 p-4">
+                            <h5 class="fw-semibold">Teenager Lamine Yamal stars in instant Champions League classic between Barcelona and Inter Milan</h5>
+                            <p class="m-auto fw-semibold opacity-50">· 8h ago</p>
+                        </div>
+                    </div>
+                </div>
+                <hr>
+                <div class="card shadow p-2 bg-light-subtle">
+                    <img src="https://upload.wikimedia.org/wikipedia/en/thumb/0/0f/EFL_Championship_Logo.svg/1200px-EFL_Championship_Logo.svg.png" class="img-fluid efl-logo" alt="efl logo">
+                    <div class="card overflow-hidden shadow-sm">
+                        <img src="https://ichef.bbci.co.uk/ace/standard/1024/cpsprodpb/28fb/live/4e01c910-282b-11f0-9714-bf834d19adae.jpg"
+                            class="img-fluid w-100" alt="post-img">
+                        <div class="card-body w-100 p-4">
+                            <h5 class="fw-semibold">West Bromwich Albion 5-3 Luton Town: Hatters suffer double relegation to drop down to League One</h5>
+                            <p class="m-auto fw-semibold opacity-50">· 8h ago</p>
+                        </div>
+                    </div>
+                </div>
+                <hr>
+                <div class="card shadow p-2 bg-light-subtle">
+                    <img src="https://cdn.worldvectorlogo.com/logos/uefa-champions-league-1.svg" class="img-fluid uefa-logo" alt="uefa logo">
+                    <div class="card overflow-hidden shadow-sm">
+                        <img src="https://i2-prod.manchestereveningnews.co.uk/article31525631.ece/ALTERNATES/s1023/0_Marcus-Rashford-22.jpg"
+                            class="img-fluid w-100" alt="post-img">
+                        <div class="card-body w-100 p-4">
+                            <h5 class="fw-semibold">Marcus Rashford gets clear three-word message as player makes feelings known to Man United star</h5>
+                            <p class="m-auto fw-semibold opacity-50">· 8h ago</p>
+                        </div>
+                    </div>
+                </div>
+                <hr>
+                <div class="card shadow p-2 bg-light-subtle">
+                    <img src="https://cdn.worldvectorlogo.com/logos/uefa-champions-league-1.svg" class="img-fluid uefa-logo" alt="uefa logo">
+                    <div class="card overflow-hidden shadow-sm">
+                        <img src="https://static.standard.co.uk/2025/04/29/20/14/SEI249361360.jpeg?trim=0,427,673,427&quality=75&auto=webp&width=1000"
+                            class="img-fluid w-100" alt="post-img">
+                        <div class="card-body w-100 p-4">
+                            <h5 class="fw-semibold">Arsenal vs PSG LIVE: Champions League result, latest updates and reaction after Gunners lose</h5>
+                            <p class="m-auto fw-semibold opacity-50">· 8h ago</p>
+                        </div>
+                    </div>
+                </div>
+                <hr>
+                <div class="card shadow p-2 bg-light-subtle">
+                    <img src="https://1000logos.net/wp-content/uploads/2019/01/Spanish-La-Liga-Logo.jpg" class="img-fluid laliga-logo" alt="laliga logo">
+                    <div class="card overflow-hidden shadow-sm">
+                        <img src="https://barcauniversal.com/wp-content/uploads/2025/05/barcelona-v-real-madrid-copa-del-rey-final-12-scaled.jpg"
+                            class="img-fluid w-100" alt="post-img">
+                        <div class="card-body w-100 p-4">
+                            <h5 class="fw-semibold">Barcelona fan-favourite will be ready for Inter Milan clash despite discomfort against Valladolid</h5>
+                            <p class="m-auto fw-semibold opacity-50">· 8h ago</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </article>
+        <aside class="sidebar">
+            <div>
+                <p class="fs-5 fw-semibold m-auto">Trendings</p>
+                <div class="card d-flex flex-row w-100 p-1 my-2 overflow-hidden shadow">
+                    <div class="w-25 m-auto">
+                        <img src="https://livesport-ott-images.ssl.cdn.cra.cz/r900xfq60/96eef9e9-7bb8-4198-b2dd-88bc9ecd88ab.avif" class="img-fluid rounded object-fit-cover" alt="">   
+                    </div>
+                    <div class="w-75 px-2 m-auto text-center">
+                        <p class="m-auto">Football Tracker: Bologna and Juve share the spoils as Athletic Club and Sociedad draw</p>
+                    </div>
+                </div>
+                <div class="card d-flex flex-row w-100 p-1 my-2 overflow-hidden shadow">
+                    <div class="w-25 m-auto">
+                        <img src="https://static.standard.co.uk/2025/05/04/18/09/colepalmer04052025c-jpg.jpeg?trim=0,0,138,0&quality=75&auto=webp&width=1000" class="img-fluid rounded object-fit-cover" alt="">   
+                    </div>
+                    <div class="w-75 px-2 m-auto text-center">
+                        <p class="m-auto">Chelsea vs Liverpool LIVE: Premier League result, match stream and latest updates today</p>
+                    </div>
+                </div>
+                <div class="card d-flex flex-row w-100 p-1 my-2 overflow-hidden shadow">
+                    <div class="w-25 m-auto">
+                        <img src="https://e0.365dm.com/25/05/1600x900/skysports-odegaard-arsenal_6905502.jpg?20250503211202" class="img-fluid rounded object-fit-cover" alt="">   
+                    </div>
+                    <div class="w-75 px-2 m-auto text-center">
+                        <p class="m-auto">Arsenal's problems are more than just set-pieces - Premier League hits and misses</p>
+                    </div>
+                </div>
+                <div class="card d-flex flex-row w-100 p-1 my-2 overflow-hidden shadow">
+                    <div class="w-25 m-auto">
+                        <img src="https://i2-prod.football.london/incoming/article31571078.ece/ALTERNATES/s810/0_GettyImages-2213359295.jpg" class="img-fluid rounded object-fit-cover" alt="">   
+                    </div>
+                    <div class="w-75 px-2 m-auto text-center">
+                        <p class="m-auto">Every word Ange Postecoglou said on bad James Maddison news, Solanke update and Archie Gray</p>
+                    </div>
+                </div>
+                <div class="card d-flex flex-row w-100 p-1 my-2 overflow-hidden shadow">
+                    <div class="w-25 m-auto">
+                        <img src="https://i2-prod.liverpoolecho.co.uk/article31562621.ece/ALTERNATES/s1023/1_GettyImages-2212382770.jpg" class="img-fluid rounded object-fit-cover" alt="">   
+                    </div>
+                    <div class="w-75 px-2 m-auto text-center">
+                        <p class="m-auto">Liverpool line-up for Chelsea confirmed as six changes made and key man left at home</p>
+                    </div>
+                </div>
+            </div>
+        </aside>
+    </main>
+
+    <footer class="site-footer bg-dark text-center py-4 border-top">
+        <div class="container">
+          <!-- Logo / Title -->
+          <h5 class="fw-bold text-uppercase text-light mb-3" style="font-family: 'Oswald', sans-serif;">SportsHub</h5>
+      
+          <!-- Social Media Icons -->
+          <div class="mb-3">
+            <a href="https://www.facebook.com/" class="btn btn-outline-secondary btn-sm rounded-circle mx-1"><i class="fab fa-facebook-f"></i></a>
+            <a href="https://x.com/" class="btn btn-outline-secondary btn-sm rounded-circle mx-1"><i class="fab fa-x-twitter"></i></a>
+            <a href="https://www.instagram.com/" class="btn btn-outline-secondary btn-sm rounded-circle mx-1"><i class="fab fa-instagram"></i></a>
+            <a href="https://www.tiktok.com/en/" class="btn btn-outline-secondary btn-sm rounded-circle mx-1"><i class="fab fa-tiktok"></i></a>
+            <a href="https://www.youtube.com/" class="btn btn-outline-secondary btn-sm rounded-circle mx-1"><i class="fab fa-youtube"></i></a>
+          </div>
+      
+        <!-- Navigation Links -->
+        <ul class="list-inline small mb-2">
+            <li class="list-inline-item"><a href="home.html" class="text-light text-decoration-none">Home</a></li>
+            <li class="list-inline-item"><a href="basketball.html" class="text-light text-decoration-none">Basketball</a></li>
+            <li class="list-inline-item"><a href="volleyball.html" class="text-light text-decoration-none">Volleyball</a></li>
+            <li class="list-inline-item"><a href="football.html" class="text-light text-decoration-none">Football</a></li>
+        
+            <!-- Dropdown for Others -->
+            <li class="list-inline-item dropdown">
+            <a class="text-light text-decoration-none dropdown-toggle" href="#" id="othersDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Others
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="othersDropdown">
+                <li><a class="dropdown-item" href="badminton.html">Badminton</a></li>
+                <li><a class="dropdown-item" href="baseball.html">Baseball</a></li>
+                <li><a class="dropdown-item" href="boxing.html">Boxing</a></li>
+                <li><a class="dropdown-item" href="esports.html">E-Sports</a></li>
+                <li><a class="dropdown-item" href="f1.html">F1</a></li>
+                <li><a class="dropdown-item" href="golf.html">Golf</a></li>
+                <li><a class="dropdown-item" href="gymnastics.html">Gymnastics</a></li>
+                <li><a class="dropdown-item" href="hockey.html">Hockey</a></li>
+                <li><a class="dropdown-item" href="mma.html">MMA</a></li>
+                <li><a class="dropdown-item" href="swimming.html">Swimming</a></li>
+                <li><a class="dropdown-item" href="soccer.html">Soccer</a></li>
+                <li><a class="dropdown-item" href="tennis.html">Tennis</a></li>
+            </ul>
+            </li>
+        
+            <li class="list-inline-item"><a href="about.html" class="text-light text-decoration-none">About</a></li>
+            <li class="list-inline-item"><a href="contact.html" class="text-light text-decoration-none">Contact</a></li>
+        </ul>  
+          <!-- Copyright -->
+          <p class="text-light small mb-0">
+            Copyright © 2025 SportsHub. Bringing hot sports news to the community, created by Triad.
+          </p>
+        </div>
+      </footer>    
+
+      <!-- Back to Top Button -->
+    <a href="#" id="backToTopBtn" class="btn btn-dark rounded" 
+        style="position: fixed; bottom: 20px; right: 20px; display: none; z-index: 999;">
+        <i class="fas fa-chevron-up text-white"></i>
+    </a>
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+        integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.min.js"
+        integrity="sha384-VQqxDN0EQCkWoxt/0vsQvZswzTHUVOImccYmSyhJTp7kGtPed0Qcx8rK9h9YEgx+"
+        crossorigin="anonymous"></script>
+    <script>
+        const backToTopBtn = document.getElementById('backToTopBtn');
+          
+        // Show button when user scrolls down 100px
+        window.addEventListener('scroll', () => {
+            if (window.scrollY > 100) {
+            backToTopBtn.style.display = 'block';
+            } else {
+            backToTopBtn.style.display = 'none';
+            }
+        });
+          
+        // Smooth scroll to top on click
+        backToTopBtn.addEventListener('click', (e) => {
+            e.preventDefault();
+            window.scrollTo({ top: 0, behavior: 'smooth' });
+        });
+    </script>
+</body>
+
+</html>

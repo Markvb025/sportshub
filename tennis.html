@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <title>Tennus - SportsHub</title>
+</head>
+
+<body class="bg-secondary-subtle">
+    <!-- Nav bar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark px-3 py-2">
+        <div class="container-fluid">
+            <!-- Logo -->
+            <a class="navbar-brand d-flex align-items-center" href="index.html">
+                <img src="https://scontent.fmnl16-1.fna.fbcdn.net/v/t1.15752-9/494826414_1051594533696525_2008064130420257807_n.png?_nc_cat=106&ccb=1-7&_nc_sid=9f807c&_nc_ohc=sq_mrfpDstwQ7kNvwEZWPgI&_nc_oc=AdlN_BWbJrXWPPKbAUKsgDbWjs8qUYkJE0grEiXjal2Dnbb0XQuS5VNqlm_x2ryck5k&_nc_zt=23&_nc_ht=scontent.fmnl16-1.fna&oh=03_Q7cD2QFiat-h_z1dcmqObgyNICwdRbaqhxnidK_dAg0CaYwHGw&oe=683FA76E"
+                    class="img-fluid" style="max-height: 40px;" alt="SportsHub">
+            </a>
+
+            <!-- Toggler -->
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <!-- Navbar Content -->
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <!-- Nav Links -->
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item pe-2">
+                        <a class="nav-link text-white" href="home.html">Home</a>
+                    </li>
+                    <li class="nav-item pe-2">
+                        <a class="nav-link text-white active" href="basketball.html">Basketball</a>
+                    </li>
+                    <li class="nav-item pe-2">
+                        <a class="nav-link text-white" href="volleyball.html">Volleyball</a>
+                    </li>
+                    <li class="nav-item pe-2">
+                        <a class="nav-link text-white" href="football.html">Football</a>
+                    </li>
+                    <!-- Dropdown -->
+                    <li class="nav-item dropdown pe-2">
+                        <a class="nav-link dropdown-toggle text-white" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Others
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="badminton.html">Badminton</a></li>
+                            <li><a class="dropdown-item" href="baseball.html">Baseball</a></li>
+                            <li><a class="dropdown-item" href="boxing.html">Boxing</a></li>
+                            <li><a class="dropdown-item" href="esports.html">E-Sports</a></li>
+                            <li><a class="dropdown-item" href="f1.html">F1</a></li>
+                            <li><a class="dropdown-item" href="golf.html">Golf</a></li>
+                            <li><a class="dropdown-item" href="gymnastics.html">Gymnastics</a></li>
+                            <li><a class="dropdown-item" href="hockey.html">Hockey</a></li>
+                            <li><a class="dropdown-item" href="mma.html">MMA</a></li>
+                            <li><a class="dropdown-item" href="swimming.html">Swimming</a></li>
+                            <li><a class="dropdown-item" href="soccer.html">Soccer</a></li>
+                            <li><a class="dropdown-item" href="tennis.html">Tennis</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item pe-2">
+                        <a class="nav-link text-white" href="about.html">About</a>
+                    </li>
+                    <li class="nav-item pe-2">
+                        <a class="nav-link text-white" href="contact.html">Contact</a>
+                    </li>
+                </ul>
+
+                <!-- Search: Always responsive -->
+                <div class="ms-auto d-flex justify-content-center align-items-center w-100 w-lg-auto mt-3 mt-lg-0">
+                    <form class="d-flex" role="search">
+                        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search" style="max-width: 200px;">
+                        <button class="btn btn-success text-white" type="submit">Search</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <!-- Category -->
+    <div class="d-flex align-items-center justify-content-center w-100 p-2 mt-1 bg-light shadow">
+        <i class="fa-solid fa-badminton fs-3"></i>
+        <h4 class="fw-bold my-auto px-3">Tennis</h4>
+        <i class="fa-solid fa-badminton fs-3"></i>
+    </div>
+    <!-- Main Content -->
+    <main class="main-container d-flex w-75 m-auto my-2">
+
+        <article class="main-article">
+            <div>
+                <div class="card shadow p-2 bg-light-subtle">
+                    <img src="https://s.yimg.com/ny/api/res/1.2/9Vbl2.V0OZQ5XFzNfAMVKg--/YXBwaWQ9aGlnaGxhbmRlcjt3PTIxODtoPTQ4O2NmPXdlYnA-/https://s.yimg.com/os/creatr-uploaded-images/2020-12/a4d17030-38b4-11eb-a7fb-5699c70bdc8b" class="img-fluid nba-logo" alt="nba logo"> <!-- Logo of what league of basketball -->
+                    <div class="card overflow-hidden shadow-sm">
+                        <img src="https://images.tennis.com/image/private/t_16-9_1920_2x/f_auto/tenniscom-prd/rjiwcbratgebhbbludab.jpg"
+                            class="img-fluid w-100 object-fit-cover" alt="post-img"> <!-- Preview Image -->
+                        <div class="card-footer w-100 p-4">
+                            <h5 class="fw-semibold">Madrid Open Fashion Roundup: Eight minimalist outfits we can't get enough of</h5>
+                            <p class="m-auto fw-semibold opacity-50">· 8h ago</p>
+                        </div>
+                    </div>
+                </div>
+                <hr>
+                <div class="card shadow p-2 bg-light-subtle">
+                    <img src="https://s.yimg.com/ny/api/res/1.2/9Vbl2.V0OZQ5XFzNfAMVKg--/YXBwaWQ9aGlnaGxhbmRlcjt3PTIxODtoPTQ4O2NmPXdlYnA-/https://s.yimg.com/os/creatr-uploaded-images/2020-12/a4d17030-38b4-11eb-a7fb-5699c70bdc8b" class="img-fluid pba-logo" alt="pba logo">
+                    <div class="card overflow-hidden shadow-sm">
+                        <img src="https://images.tennis.com/image/private/t_16-9_1920_2x/f_auto/tenniscom-prd/vgp93o51rl1z523yozmz.jpg"
+                            class="img-fluid w-100" alt="post-img">
+                        <div class="card-body w-100 p-4">
+                            <h5 class="fw-semibold">How best to celebrate tennis? May we suggest: National Tennis Month</h5>
+                            <p class="m-auto fw-semibold opacity-50">· 8h ago</p>
+                        </div>
+                    </div>
+                </div>
+                <hr>
+                <div class="card shadow p-2 bg-light-subtle">
+                    <img src="https://s.yimg.com/ny/api/res/1.2/9Vbl2.V0OZQ5XFzNfAMVKg--/YXBwaWQ9aGlnaGxhbmRlcjt3PTIxODtoPTQ4O2NmPXdlYnA-/https://s.yimg.com/os/creatr-uploaded-images/2020-12/a4d17030-38b4-11eb-a7fb-5699c70bdc8b" class="img-fluid nba-logo" alt="nba logo">
+                    <div class="card overflow-hidden shadow-sm">
+                        <img src="https://images.tennis.com/image/private/t_16-9_1920_2x/f_auto/tenniscom-prd/ka9vtymxuzvkvtm8krhl.jpg"
+                            class="img-fluid w-100" alt="post-img">
+                        <div class="card-body w-100 p-4">
+                            <h5 class="fw-semibold">Casper Ruud posts compassionate note to Iga Swiatek on X after Pole's Madrid defeat</h5>
+                            <p class="m-auto fw-semibold opacity-50">· 8h ago</p>
+                        </div>
+                    </div>
+                </div>
+                <hr>
+                <div class="card shadow p-2 bg-light-subtle">
+                    <img src="https://s.yimg.com/ny/api/res/1.2/9Vbl2.V0OZQ5XFzNfAMVKg--/YXBwaWQ9aGlnaGxhbmRlcjt3PTIxODtoPTQ4O2NmPXdlYnA-/https://s.yimg.com/os/creatr-uploaded-images/2020-12/a4d17030-38b4-11eb-a7fb-5699c70bdc8b" class="img-fluid nba-logo" alt="nba logo">
+                    <div class="card overflow-hidden shadow-sm">
+                        <img src="https://images.tennis.com/image/private/t_16-9_1920_2x/f_auto/tenniscom-prd/ae1r59kaudr54q1qsard.jpg"
+                            class="img-fluid w-100" alt="post-img">
+                        <div class="card-body w-100 p-4">
+                            <h5 class="fw-semibold">Milos Raonic embraces "servebot" moniker on 'Second Serve'</h5>
+                            <p class="m-auto fw-semibold opacity-50">· 8h ago</p>
+                        </div>
+                    </div>
+                </div>
+                <hr>
+                <div class="card shadow p-2 bg-light-subtle">
+                    <img src="https://s.yimg.com/ny/api/res/1.2/9Vbl2.V0OZQ5XFzNfAMVKg--/YXBwaWQ9aGlnaGxhbmRlcjt3PTIxODtoPTQ4O2NmPXdlYnA-/https://s.yimg.com/os/creatr-uploaded-images/2020-12/a4d17030-38b4-11eb-a7fb-5699c70bdc8b" class="img-fluid pba-logo" alt="pba logo">
+                    <div class="card overflow-hidden shadow-sm">
+                        <img src="https://media.philstar.com/photos/2025/01/06/4_2025-01-06_20-17-56.jpg"
+                            class="img-fluid w-100" alt="post-img">
+                        <div class="card-body w-100 p-4">
+                            <h5 class="fw-semibold">Eala begins Italian Open bid vs Ukrainian World No. 27</h5>
+                            <p class="m-auto fw-semibold opacity-50">· 8h ago</p>
+                        </div>
+                    </div>
+                </div>
+                <hr>
+                <div class="card shadow p-2 bg-light-subtle">
+                    <img src="https://s.yimg.com/ny/api/res/1.2/9Vbl2.V0OZQ5XFzNfAMVKg--/YXBwaWQ9aGlnaGxhbmRlcjt3PTIxODtoPTQ4O2NmPXdlYnA-/https://s.yimg.com/os/creatr-uploaded-images/2020-12/a4d17030-38b4-11eb-a7fb-5699c70bdc8b" class="img-fluid uaap-logo" alt="uaap logo">
+                    <div class="card overflow-hidden shadow-sm">
+                        <img src="https://a.espncdn.com/combiner/i?img=%2Fphoto%2F2025%2F0407%2Fr1475221_1296x729_16%2D9.jpg&w=920&h=518&scale=crop&cquality=80&location=origin&format=jpg"
+                            class="img-fluid w-100" alt="post-img">
+                        <div class="card-body w-100 p-4">
+                            <h5 class="fw-semibold">At 37, Djokovic still has big tennis goals</h5>
+                            <p class="m-auto fw-semibold opacity-50">· 8h ago</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </article>
+        <aside class="sidebar">
+            <div>
+                <p class="fs-5 fw-semibold m-auto">Trendings</p>
+                <div class="card d-flex flex-row w-100 p-1 my-2 overflow-hidden shadow">
+                    <div class="w-25 m-auto">
+                        <img src="https://images2.minutemediacdn.com/image/upload/c_crop,w_7613,h_4282,x_0,y_445/c_fill,w_1080,ar_16:9,f_auto,q_auto,g_auto/images%2FImagnImages%2Fmmsport%2Fall_wolfpack%2F01jtb6630kcxy4m36ndr.jpg" class="img-fluid rounded object-fit-cover" alt="">   
+                    </div>
+                    <div class="w-75 px-2 m-auto text-center">
+                        <p class="m-auto">Promising NC State Basketball Transfer Target Now Trending</p>
+                    </div>
+                </div>
+                <div class="card d-flex flex-row w-100 p-1 my-2 overflow-hidden shadow">
+                    <div class="w-25 m-auto">
+                        <img src="https://d2b5htfb6s9xp9.cloudfront.net/images/2025/2/24/046_Condon_Alex__250111_0984_MaddieWashburn_C8Age.jpg?width=1024&height=576&mode=crop" class="img-fluid rounded object-fit-cover" alt="">   
+                    </div>
+                    <div class="w-75 px-2 m-auto text-center">
+                        <p class="m-auto">'Condo' Trending Toward Return, as Gators Near Full Strength</p>
+                    </div>
+                </div>
+                <div class="card d-flex flex-row w-100 p-1 my-2 overflow-hidden shadow">
+                    <div class="w-25 m-auto">
+                        <img src="https://i0.wp.com/www.thenexthoops.com/wp-content/uploads/2025/05/image-4.png?w=720&ssl=1" class="img-fluid rounded object-fit-cover" alt="">   
+                    </div>
+                    <div class="w-75 px-2 m-auto text-center">
+                        <p class="m-auto">Locked On Women’s Basketball: Injury trends in the WNBA</p>
+                    </div>
+                </div>
+                <div class="card d-flex flex-row w-100 p-1 my-2 overflow-hidden shadow">
+                    <div class="w-25 m-auto">
+                        <img src="https://i.ytimg.com/vi/BxLOxZJ_TEI/mqdefault.jpg" class="img-fluid rounded object-fit-cover" alt="">   
+                    </div>
+                    <div class="w-75 px-2 m-auto text-center">
+                        <p class="m-auto">Duke's Roster DEFIES College Basketball Trends</p>
+                    </div>
+                </div>
+                <div class="card d-flex flex-row w-100 p-1 my-2 overflow-hidden shadow">
+                    <div class="w-25 m-auto">
+                        <img src="https://1cms-img.imgix.net/PBA%20SMB%20Cruz%20vs%20GIN.jpg?auto=compress" class="img-fluid rounded object-fit-cover" alt="">   
+                    </div>
+                    <div class="w-75 px-2 m-auto text-center">
+                        <p class="m-auto">San Miguel looks to pile more woes on winless TNT</p>
+                    </div>
+                </div>
+            </div>
+        </aside>
+    </main>
+
+    <footer class="site-footer bg-dark text-center py-4 border-top">
+        <div class="container">
+          <!-- Logo / Title -->
+          <h5 class="fw-bold text-uppercase text-light mb-3" style="font-family: 'Oswald', sans-serif;">SportsHub</h5>
+      
+          <!-- Social Media Icons -->
+          <div class="mb-3">
+            <a href="https://www.facebook.com/" class="btn btn-outline-secondary btn-sm rounded-circle mx-1"><i class="fab fa-facebook-f"></i></a>
+            <a href="https://x.com/" class="btn btn-outline-secondary btn-sm rounded-circle mx-1"><i class="fab fa-x-twitter"></i></a>
+            <a href="https://www.instagram.com/" class="btn btn-outline-secondary btn-sm rounded-circle mx-1"><i class="fab fa-instagram"></i></a>
+            <a href="https://www.tiktok.com/en/" class="btn btn-outline-secondary btn-sm rounded-circle mx-1"><i class="fab fa-tiktok"></i></a>
+            <a href="https://www.youtube.com/" class="btn btn-outline-secondary btn-sm rounded-circle mx-1"><i class="fab fa-youtube"></i></a>
+          </div>
+      
+        <!-- Navigation Links -->
+        <ul class="list-inline small mb-2">
+            <li class="list-inline-item"><a href="home.html" class="text-light text-decoration-none">Home</a></li>
+            <li class="list-inline-item"><a href="basketball.html" class="text-light text-decoration-none">Basketball</a></li>
+            <li class="list-inline-item"><a href="volleyball.html" class="text-light text-decoration-none">Volleyball</a></li>
+            <li class="list-inline-item"><a href="football.html" class="text-light text-decoration-none">Football</a></li>
+        
+            <!-- Dropdown for Others -->
+            <li class="list-inline-item dropdown">
+            <a class="text-light text-decoration-none dropdown-toggle" href="#" id="othersDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Others
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="othersDropdown">
+                <li><a class="dropdown-item" href="badminton.html">Badminton</a></li>
+                <li><a class="dropdown-item" href="baseball.html">Baseball</a></li>
+                <li><a class="dropdown-item" href="boxing.html">Boxing</a></li>
+                <li><a class="dropdown-item" href="esports.html">E-Sports</a></li>
+                <li><a class="dropdown-item" href="f1.html">F1</a></li>
+                <li><a class="dropdown-item" href="golf.html">Golf</a></li>
+                <li><a class="dropdown-item" href="gymnastics.html">Gymnastics</a></li>
+                <li><a class="dropdown-item" href="hockey.html">Hockey</a></li>
+                <li><a class="dropdown-item" href="mma.html">MMA</a></li>
+                <li><a class="dropdown-item" href="swimming.html">Swimming</a></li>
+                <li><a class="dropdown-item" href="soccer.html">Soccer</a></li>
+                <li><a class="dropdown-item" href="tennis.html">Tennis</a></li>
+            </ul>
+            </li>
+        
+            <li class="list-inline-item"><a href="about.html" class="text-light text-decoration-none">About</a></li>
+            <li class="list-inline-item"><a href="contact.html" class="text-light text-decoration-none">Contact</a></li>
+        </ul>  
+          <!-- Copyright -->
+          <p class="text-light small mb-0">
+            Copyright © 2025 SportsHub. Bringing hot sports news to the community, created by Triad.
+          </p>
+        </div>
+      </footer>    
+
+      <!-- Back to Top Button -->
+    <a href="#" id="backToTopBtn" class="btn btn-dark rounded" 
+        style="position: fixed; bottom: 20px; right: 20px; display: none; z-index: 999;">
+        <i class="fas fa-chevron-up text-white"></i>
+    </a>
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+        integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.min.js"
+        integrity="sha384-VQqxDN0EQCkWoxt/0vsQvZswzTHUVOImccYmSyhJTp7kGtPed0Qcx8rK9h9YEgx+"
+        crossorigin="anonymous"></script>
+    <script>
+        const backToTopBtn = document.getElementById('backToTopBtn');
+          
+        // Show button when user scrolls down 100px
+        window.addEventListener('scroll', () => {
+            if (window.scrollY > 100) {
+            backToTopBtn.style.display = 'block';
+            } else {
+            backToTopBtn.style.display = 'none';
+            }
+        });
+          
+        // Smooth scroll to top on click
+        backToTopBtn.addEventListener('click', (e) => {
+            e.preventDefault();
+            window.scrollTo({ top: 0, behavior: 'smooth' });
+        });
+    </script>
+</body>
+
+</html>

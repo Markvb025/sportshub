@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <title>SportsHub</title>
+</head>
+
+<body class="bg-secondary-subtle">
+    <!-- Nav bar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark px-3 py-2">
+        <div class="container-fluid">
+            <!-- Logo -->
+            <a class="navbar-brand d-flex align-items-center" href="index.html">
+                <img src="https://scontent.fmnl16-1.fna.fbcdn.net/v/t1.15752-9/494826414_1051594533696525_2008064130420257807_n.png?_nc_cat=106&ccb=1-7&_nc_sid=9f807c&_nc_ohc=sq_mrfpDstwQ7kNvwEZWPgI&_nc_oc=AdlN_BWbJrXWPPKbAUKsgDbWjs8qUYkJE0grEiXjal2Dnbb0XQuS5VNqlm_x2ryck5k&_nc_zt=23&_nc_ht=scontent.fmnl16-1.fna&oh=03_Q7cD2QFiat-h_z1dcmqObgyNICwdRbaqhxnidK_dAg0CaYwHGw&oe=683FA76E"
+                    class="img-fluid" style="max-height: 40px;" alt="SportsHub">
+            </a>
+
+            <!-- Toggler -->
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <!-- Navbar Content -->
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <!-- Nav Links -->
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item pe-2">
+                        <a class="nav-link text-white" href="home.html">Home</a>
+                    </li>
+                    <li class="nav-item pe-2">
+                        <a class="nav-link text-white active" href="basketball.html">Basketball</a>
+                    </li>
+                    <li class="nav-item pe-2">
+                        <a class="nav-link text-white" href="volleyball.html">Volleyball</a>
+                    </li>
+                    <li class="nav-item pe-2">
+                        <a class="nav-link text-white" href="football.html">Football</a>
+                    </li>
+                    <!-- Dropdown -->
+                    <li class="nav-item dropdown pe-2">
+                        <a class="nav-link dropdown-toggle text-white" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Others
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="badminton.html">Badminton</a></li>
+                            <li><a class="dropdown-item" href="baseball.html">Baseball</a></li>
+                            <li><a class="dropdown-item" href="boxing.html">Boxing</a></li>
+                            <li><a class="dropdown-item" href="esports.html">E-Sports</a></li>
+                            <li><a class="dropdown-item" href="f1.html">F1</a></li>
+                            <li><a class="dropdown-item" href="golf.html">Golf</a></li>
+                            <li><a class="dropdown-item" href="gymnastics.html">Gymnastics</a></li>
+                            <li><a class="dropdown-item" href="hockey.html">Hockey</a></li>
+                            <li><a class="dropdown-item" href="mma.html">MMA</a></li>
+                            <li><a class="dropdown-item" href="swimming.html">Swimming</a></li>
+                            <li><a class="dropdown-item" href="soccer.html">Soccer</a></li>
+                            <li><a class="dropdown-item" href="tennis.html">Tennis</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item pe-2">
+                        <a class="nav-link text-white" href="about.html">About</a>
+                    </li>
+                    <li class="nav-item pe-2">
+                        <a class="nav-link text-white" href="contact.html">Contact</a>
+                    </li>
+                </ul>
+
+                <!-- Search: Always responsive -->
+                <div class="ms-auto d-flex justify-content-center align-items-center w-100 w-lg-auto mt-3 mt-lg-0">
+                    <form class="d-flex" role="search">
+                        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search" style="max-width: 200px;">
+                        <button class="btn btn-success text-white" type="submit">Search</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <main class="main-container d-flex mx-5 my-2">
+        <article class="main-article">
+            <div class="headline shadow">
+                <h1>SOME PEOPLE WANT IT TO HAPPEN SOME WISH IT WOULD HAPPEN OTHERS MAKE IT HAPPEN</h1>
+            </div>
+            <div>
+                <p class="fs-3 fw-semibold m-auto">Recent Posts</p>
+                <div class="card d-flex flex-column flex-md-row overflow-hidden shadow p-2">
+                <div class="w-100 w-md-50">
+                    <img src="https://e0.365dm.com/25/05/1600x900/skysports-ryan-garcia-rolando-romero_6904230.jpg?20250503062017"
+                        class="img-fluid h-100 w-100 object-fit-cover rounded" alt="recent-post-img">
+                </div>
+                <div class="card-body w-100 w-md-50 d-flex flex-column justify-content-center px-2 py-3">
+                    <h4 class="mb-2">Ryan Garcia shocked by Rolando Romero on Times Square boxing show</h4>
+                    <p class="p-content mb-0">
+                    On an open-air show in New York's Times Square, Ryan Garcia suffered a shock defeat to Rolando
+                    Romero. Devin Haney outscored Jose Ramirez while Teofimo Lopez defended his title.
+                    </p>
+                </div>
+                </div>
+                <hr>
+                <div class="card d-flex flex-column flex-md-row overflow-hidden shadow p-2 p-md-3">
+                <div class="w-100 w-md-50">
+                    <img src="https://media.cnn.com/api/v1/images/stellar/prod/2024-11-01t021709z-1030105663-mt1usatoday24638635-rtrmadp-3-nba-san-antonio-spurs-at-utah-jazz.JPG?c=16x9&q=h_833,w_1480,c_fill"
+                        class="img-fluid w-100 h-100 object-fit-cover rounded" alt="recent-post-img">
+                </div>
+                <div class="card-body w-100 w-md-50 d-flex flex-column justify-content-center px-2 py-3">
+                    <h4 class="mb-2">Popovich will no longer coach Spurs</h4>
+                    <p class="mb-0">
+                    Gregg Popovich will no longer be head coach of the San Antonio Spurs and is transitioning to a full-time role as the team's president of basketball operations.
+                    </p>
+                </div>
+                </div>
+                <hr>
+                <div class="card d-flex flex-column flex-md-row overflow-hidden shadow p-2 p-md-3">
+  <div class="w-100 w-md-50">
+    <img src="https://images2.minutemediacdn.com/image/upload/c_crop,w_3379,h_1900,x_0,y_0/c_fill,w_1080,ar_16:9,f_auto,q_auto,g_auto/images%2FImagnImages%2Fmmsport%2Fsi%2F01jt6qqyqpj9d97dh231.jpg"
+         class="img-fluid w-100 h-100 object-fit-cover rounded" alt="recent-post-img">
+  </div>
+  <div class="card-body w-100 w-md-50 d-flex flex-column justify-content-center px-2 py-3">
+    <h4 class="mb-2">Rudy Gobert Is a Fan of Anthony Edwards’s New Description of Him</h4>
+    <p class="mb-0">
+      Minnesota Timberwolves center Rudy Gobert (27) talks with guard Anthony Edwards (5) during a time out in the fourth quarter against the Memphis Grizzlies at FedExForum. / Petre Thomas-Imagn Images
+    </p>
+  </div>
+</div>
+
+            </div>
+        </article>
+        <aside class="sidebar">
+            <div>
+                <p class="fs-3 fw-semibold m-auto">Top Headlines</p>
+                <div class="card w-100 overflow-hidden shadow">
+                    <div class="side-content-rpost-img">
+                        <h4 class="text-white">LeBron James on retirement: ‘I don’t know the answer to that right now’
+                        </h4>
+                        <p>May 1, 2025</p>
+                    </div>
+                    <div class="side-content-rpost">
+                        <h4>Bryson DeChambeau, Talor Gooch share lead at LIV Golf Korea</h4>
+                        <p>May 2, 2025</p>
+                    </div>
+                    <div class="side-content-rpost">
+                        <h4>Clips spurred by Lue's pregame calls, stop Nuggets to force Game 7</h4>
+                        <p>May 2, 2025</p>
+                    </div>
+                    <div class="side-content-rpost">
+                        <h4>Pirates fan who fell 21 feet to field still in critical condition</h4>
+                        <p>May 2, 2025</p>
+                    </div>
+                    <div class="side-content-rpost">
+                        <h4>Kentucky Derby field at 19 with Grande scratch; owner 'shocked'</h4>
+                        <p>May 2, 2025</p>
+                    </div>
+                    <div class="side-content-rpost">
+                        <h4>Tyrese Haliburton's father staying away from Pacers games</h4>
+                        <p>May 2, 2025</p>
+                    </div>
+                </div>
+            </div>
+            <br>
+            <div>
+                <p class="fs-3 fw-semibold m-auto text-center">Follow SportsHub</p>
+                <div class="card w-100 p-4 shadow">
+                    <a href="https://www.facebook.com/" style="text-decoration: none; color: black;">
+                        <div class="d-flex flex-wrap justify-content-center">
+                            <div class="px-3 py-2 text-center" style="flex: 0 0 33.333%;">
+                            <i class="fa-brands fa-square-facebook text-primary fs-2"></i>
+                            <p class="fs-5 m-0">Facebook</p>
+                        </div>
+                    </a>
+                    <a href="https://x.com/" style="text-decoration: none; color: black;">
+                        <div class="px-3 py-2 text-center" style="flex: 0 0 33.333%;">
+                        <i class="fa-brands fa-square-x-twitter text-dark fs-2"></i>
+                        <p class="fs-5 m-0">Twitter</p>
+                        </div>
+                    </a>
+                    <a href="https://www.instagram.com/" style="text-decoration: none; color: black;">
+                        <div class="px-3 py-2 text-center" style="flex: 0 0 33.333%;">
+                        <i class="fa-brands fa-instagram text-danger fs-2"></i>
+                        <p class="fs-5 m-0">Instagram</p>
+                        </div>
+                    </a>
+                    <a href="https://www.tiktok.com/en/" style="text-decoration: none; color: black;">
+                        <div class="px-3 py-2 text-center" style="flex: 0 0 33.333%;">
+                        <i class="fa-brands fa-tiktok text-dark fs-2"></i>
+                        <p class="fs-5 m-0">TikTok</p>
+                        </div>
+                    </a>
+                    <a href="https://www.youtube.com/" style="text-decoration: none; color: black;">
+                        <div class="px-3 py-2 text-center" style="flex: 0 0 33.333%;">
+                        <i class="fa-brands fa-youtube text-danger fs-2"></i>
+                        <p class="fs-5 m-0">YouTube</p>
+                        </div>
+                    </a>
+                  </div>
+                </div>
+              </div>
+        </aside>
+    </main>
+
+    <footer class="site-footer bg-dark text-center py-4 border-top">
+        <div class="container">
+          <!-- Logo / Title -->
+          <h5 class="fw-bold text-uppercase text-light mb-3" style="font-family: 'Oswald', sans-serif;">SportsHub</h5>
+      
+          <!-- Social Media Icons -->
+          <div class="mb-3">
+            <a href="https://www.facebook.com/" class="btn btn-outline-secondary btn-sm rounded-circle mx-1"><i class="fab fa-facebook-f"></i></a>
+            <a href="https://x.com/" class="btn btn-outline-secondary btn-sm rounded-circle mx-1"><i class="fab fa-x-twitter"></i></a>
+            <a href="https://www.instagram.com/" class="btn btn-outline-secondary btn-sm rounded-circle mx-1"><i class="fab fa-instagram"></i></a>
+            <a href="https://www.tiktok.com/en/" class="btn btn-outline-secondary btn-sm rounded-circle mx-1"><i class="fab fa-tiktok"></i></a>
+            <a href="https://www.youtube.com/" class="btn btn-outline-secondary btn-sm rounded-circle mx-1"><i class="fab fa-youtube"></i></a>
+          </div>
+      
+        <!-- Navigation Links -->
+        <ul class="list-inline small mb-2">
+            <li class="list-inline-item"><a href="home.html" class="text-light text-decoration-none">Home</a></li>
+            <li class="list-inline-item"><a href="basketball.html" class="text-light text-decoration-none">Basketball</a></li>
+            <li class="list-inline-item"><a href="volleyball.html" class="text-light text-decoration-none">Volleyball</a></li>
+            <li class="list-inline-item"><a href="football.html" class="text-light text-decoration-none">Football</a></li>
+        
+            <!-- Dropdown for Others -->
+            <li class="list-inline-item dropdown">
+            <a class="text-light text-decoration-none dropdown-toggle" href="#" id="othersDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Others
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="othersDropdown">
+                <li><a class="dropdown-item" href="badminton.html">Badminton</a></li>
+                <li><a class="dropdown-item" href="baseball.html">Baseball</a></li>
+                <li><a class="dropdown-item" href="boxing.html">Boxing</a></li>
+                <li><a class="dropdown-item" href="esports.html">E-Sports</a></li>
+                <li><a class="dropdown-item" href="f1.html">F1</a></li>
+                <li><a class="dropdown-item" href="golf.html">Golf</a></li>
+                <li><a class="dropdown-item" href="gymnastics.html">Gymnastics</a></li>
+                <li><a class="dropdown-item" href="hockey.html">Hockey</a></li>
+                <li><a class="dropdown-item" href="mma.html">MMA</a></li>
+                <li><a class="dropdown-item" href="swimming.html">Swimming</a></li>
+                <li><a class="dropdown-item" href="soccer.html">Soccer</a></li>
+                <li><a class="dropdown-item" href="tennis.html">Tennis</a></li>
+            </ul>
+            </li>
+        
+            <li class="list-inline-item"><a href="about.html" class="text-light text-decoration-none">About</a></li>
+            <li class="list-inline-item"><a href="contact.html" class="text-light text-decoration-none">Contact</a></li>
+        </ul>  
+          <!-- Copyright -->
+          <p class="text-light small mb-0">
+            Copyright © 2025 SportsHub. Bringing hot sports news to the community, created by Triad.
+          </p>
+        </div>
+      </footer>    
+
+    <!-- Back to Top Button -->
+    <a href="#" id="backToTopBtn" class="btn btn-dark rounded" 
+        style="position: fixed; bottom: 20px; right: 20px; display: none; z-index: 999;">
+        <i class="fas fa-chevron-up text-white"></i>
+    </a>
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+        integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.min.js"
+        integrity="sha384-VQqxDN0EQCkWoxt/0vsQvZswzTHUVOImccYmSyhJTp7kGtPed0Qcx8rK9h9YEgx+"
+        crossorigin="anonymous"></script>
+    <script>
+        const backToTopBtn = document.getElementById('backToTopBtn');
+          
+        // Show button when user scrolls down 100px
+        window.addEventListener('scroll', () => {
+            if (window.scrollY > 100) {
+            backToTopBtn.style.display = 'block';
+            } else {
+            backToTopBtn.style.display = 'none';
+            }
+        });
+          
+        // Smooth scroll to top on click
+        backToTopBtn.addEventListener('click', (e) => {
+            e.preventDefault();
+            window.scrollTo({ top: 0, behavior: 'smooth' });
+        });
+    </script>
+</body>
+
+</html>

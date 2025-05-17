@@ -1,0 +1,397 @@
+/* Reset & Global Styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: monospace, helvetica;
+  background-color: whitesmoke;
+  min-height: 100vh;
+}
+
+.navcolor {
+  background-color: rgb(41, 59, 119);
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1em;
+  flex-wrap: wrap;
+}
+
+header {
+  text-align: center;
+  font-size: 2em;
+  padding: 0.8em 0;
+  background-color: rgb(41, 59, 119);
+  color: white;
+}
+
+hr {
+  border: 0.1em solid rgb(190, 190, 190);
+}
+
+article {
+  flex: 2;
+  margin: 1em;
+}
+
+.headline {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.5)), url("https://www.shutterstock.com/image-photo/grand-sports-collage-soccer-basketball-600nw-1087921157.jpg");
+  background-size: cover;
+  background-position: top;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: auto;
+  min-height: 25em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 40px;
+  border-radius: 5px;
+  padding: 2rem;
+}
+
+.headline h1 {
+  color: #fff;
+  font-size: 2rem;
+  text-shadow: 2px 2px 8px black;
+  text-align: center;
+}
+
+aside {
+  flex: 1;
+  margin: 1em;
+}
+
+.side-content-rpost-img {
+background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.5)), url("https://dims.apnews.com/dims4/default/96a68b0/2147483647/strip/true/crop/3111x2074+0+0/resize/1440x960!/format/webp/quality/90/?url=https%3A%2F%2Fassets.apnews.com%2Fed%2F0a%2F7fc3bd1900d6f55c837338ced123%2Fa482a1725da441ed8bf83c5a12dfe66a");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 300px;
+  position: relative;
+}
+
+.side-content-rpost-img h4,
+.side-content-rpost-img p {
+  color: white;
+  position: absolute;
+  text-shadow: 2px 2px 5px black;
+  padding: 1em;
+}
+
+.side-content-rpost-img h4 {
+  bottom: 30%;
+}
+
+.side-content-rpost-img p {
+  bottom: 0;
+  font-weight: bold;
+}
+
+.side-content-rpost {
+  border: 1px solid grey;
+  padding: 1rem;
+}
+
+.side-content-rpost h4,
+.side-content-rpost p {
+  padding: 0.5em 0;
+}
+
+/* Team Card */
+.team-card {
+  border: none;
+  border-radius: 15px;
+  background-color: #f8f9fa;
+  padding-bottom: 1rem;
+  transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100%;
+}
+
+.team-img {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 4px solid #fff;
+  margin-top: 1rem;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.card-body h5 {
+  font-weight: 600;
+  margin-top: 1rem;
+}
+
+.member-card-text {
+  margin: 0.5rem 0;
+  font-size: 0.95rem;
+}
+
+.btn-learn-more {
+  background-color: #007bff;
+  color: #fff;
+  padding: 6px 14px;
+  border-radius: 25px;
+  font-size: 0.9rem;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+  margin-top: auto;
+}
+
+.btn-learn-more:hover {
+  background-color: #0056b3;
+  color: #fff;
+}
+
+.team-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+}
+
+.card-body h5 {
+  font-weight: 600;
+}
+
+.btn-learn-more {
+  background-color: #007bff;
+  color: #fff;
+  padding: 6px 14px;
+  border-radius: 25px;
+  font-size: 0.9rem;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+}
+
+.btn-learn-more:hover {
+  background-color: #0056b3;
+  color: #fff;
+}
+
+.custom-align {
+  margin: auto;
+  text-align: center;
+}
+
+.main-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 1rem;
+  padding: 1rem;
+}
+
+.main-article,
+.sidebar {
+  flex: 1 1 100%;
+}
+
+.post-card {
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  margin-bottom: 1.5rem;
+}
+
+.post-card img {
+  width: 100%;
+  object-fit: cover;
+}
+
+.card-body {
+  padding: 1rem;
+  text-align: left;
+}
+
+/* Logo Icons */
+.nba-logo,
+.pba-logo,
+.uaap-logo,
+.ncaa-logo,
+.vballworld-logo,
+.nfl-logo,
+.f1-logo,
+.nhl-logo,
+.uefa-logo,
+.efl-logo,
+.laliga-logo,
+.wbc-logo,
+.pga-logo {
+  width: 2em;
+  height: auto;
+  padding: 0.3em;
+}
+
+/* Responsive Breakpoints */
+@media (max-width: 480px) {
+  .headline {
+    min-height: 20em;
+    padding: 1rem;
+    background-position: center;
+  }
+
+  .headline h1 {
+    font-size: 1.2rem;
+    padding: 0 1rem;
+  }
+
+  .navbar {
+    flex-direction: column;
+    font-size: 0.9rem;
+    text-align: center;
+  }
+
+  .team-card img {
+    max-height: 180px;
+  }
+
+  .card-title {
+    font-size: 1rem;
+  }
+
+  .member-card-text {
+    font-size: 0.875rem;
+  }
+
+  .btn-learn-more {
+    font-size: 0.875rem;
+    padding: 0.4rem 0.8rem;
+  }
+
+  .side-content-rpost-img {
+    height: 200px;
+  }
+
+  .side-content-rpost-img h4 {
+    font-size: 1rem;
+  }
+
+  .side-content-rpost-img p {
+    font-size: 0.875rem;
+  }
+
+  .post-card {
+    flex-direction: column;
+  }
+
+  .post-card img,
+  .card-body {
+    width: 100%;
+  }
+
+  .nba-logo,
+  .pba-logo,
+  .uaap-logo,
+  .ncaa-logo,
+  .vballworld-logo,
+  .nfl-logo,
+  .f1-logo,
+  .nhl-logo,
+  .uefa-logo,
+  .efl-logo,
+  .laliga-logo,
+  .wbc-logo,
+  .pga-logo {
+    width: 1.5em;
+    padding: 0.2em;
+  }
+}
+
+
+@media (min-width: 576px) {
+  .main-article,
+  .sidebar {
+    flex: 1 1 100%;
+  }
+
+  .headline h1 {
+    font-size: 1.8rem;
+  }
+}
+
+@media (max-width: 767.98px) {
+  .card.d-flex.p-1 {
+    padding-left: 0.25rem !important;
+    padding-right: 0.25rem !important;
+  }
+  .card.d-flex.p-1 img.p-1 {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+  }
+  .card.d-flex.p-1 .card-body.p-1 {
+    padding-left: 0.25rem !important;
+    padding-right: 0.25rem !important;
+  }
+}
+
+
+@media (min-width: 768px) {
+  .main-container {
+    flex-direction: row;
+  }
+
+  .main-article {
+    flex: 2;
+  }
+
+  .sidebar {
+    flex: 1;
+  }
+
+  .post-card {
+    flex-direction: row;
+  }
+
+  .post-card img,
+  .card-body {
+    width: 50%;
+  }
+
+  .team-img {
+    width: 120px;
+    height: 120px;
+  }
+}
+
+@media (min-width: 992px) {
+  .headline h1 {
+    font-size: 2rem;
+    padding: 0 80px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .main-container {
+    padding: 2rem 6rem;
+  }
+
+  .headline {
+    min-height: 35em;
+  }
+
+  .navbar {
+    font-size: 1rem;
+  }
+}
+
+@media (min-width: 1400px) {
+  .main-container {
+    padding: 2rem 8rem;
+  }
+
+  .headline h1 {
+    font-size: 2.2rem;
+    padding: 0 120px;
+  }
+}
